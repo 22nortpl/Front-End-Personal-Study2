@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-import CountNumber from './CountNumber';
-
 
 function Counter() {
 
@@ -19,7 +17,7 @@ function Counter() {
 
  <div>
 
- <CountNumber count={count} />
+ <h2>{count}</h2>
 
  <button onClick={increment}>+1</button>
 
