@@ -3,6 +3,12 @@ function CountNumber(properties){
         if(properties.count > 0){
             return `rgb(${properties.count*10}, 0, 0)`
         }
+
+        else if(properties.count < 0){
+            return `rgb(0, ${properties.count*-10}, 0)`
+        }
+        else
+            return `rgb(0, 0, 255)`
     }
     const h2Style = {
         fontSize : '30px',
