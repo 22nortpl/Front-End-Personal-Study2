@@ -1,7 +1,7 @@
 function EmptyData() {
     return(
         <div>
-            <p> Todo 데이터가 아직 없어요.</p>
+            <p> Photos 데이터가 아직 없어요.</p>
         </div>
     )
 }
